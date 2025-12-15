@@ -1,8 +1,29 @@
 body{
-background-color: beige;
+background-color: rgb(185, 240, 233);
 
 }
 #title{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(92, 25, 155);
+    
+    color:rgb(168, 100, 232);
+    
+}
+#introduction,#closing {
+    background-color: aquamarine;
+    padding:1.5%;
+    border-radius: 2%;
+    margin:0.2%;
+}
+#closing p{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 13px;
+ font-style: italic;
+ font-weight: 700;
+}
+footer{
+    text-align:center;
+    margin: auto;
+    
+}
+footer p{
+    scroll-timeline-axis: vertical;
 }
